@@ -8,6 +8,7 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - media.type.svg_image
+    - node.type.blog
     - node.type.page
     - workflows.workflow.basic_editorial
   module:
@@ -41,19 +42,23 @@ permissions:
   - 'administer menu'
   - 'administer redirects'
   - 'administer url aliases'
+  - 'create blog content'
   - 'create document media'
   - 'create image media'
   - 'create page content'
   - 'create remote_video media'
   - 'create svg_image media'
   - 'create url aliases'
+  - 'delete any blog content'
   - 'delete any document media'
   - 'delete any image media'
   - 'delete any page content'
   - 'delete any remote_video media'
   - 'delete any svg_image media'
+  - 'delete blog revisions'
   - 'delete own files'
   - 'delete page revisions'
+  - 'edit any blog content'
   - 'edit any document media'
   - 'edit any image media'
   - 'edit any page content'
